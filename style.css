@@ -1,0 +1,624 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat';
+}
+.header 
+{
+    background-color: #2c3e5a;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    flex-wrap: wrap;
+}
+.logo
+{
+   
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+.logo span 
+{
+    color: hsl(168.15deg 75.7% 41.96%);
+}
+.navbar a
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    margin: 20px 20px;
+}    
+.navbar a:hover{
+    color: hsl(168.15deg 75.7% 41.96%);
+    transition: 0.2s;
+}
+.start{
+    position: relative;
+    background-color: hsl(168.15deg 75.7% 41.96%);
+    color: white;
+    width: 100%;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+.start div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 20px;
+    
+    
+    
+}
+.image-container {
+    width: 220px; 
+    height: 220px;
+    border-radius: 50%; 
+    background-color: #2c3e5a;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+    position: relative;
+    transition: 0.5s ease; 
+  }
+  
+  .image-container img {
+   
+  
+    position: absolute;
+    top: 110px;
+    left: 116px;
+    transform: translate(-50%, -50%) scale(1.2);
+    width: 100%;
+    height: auto;
+    
+}
+  
+
+  .image-container:hover {
+    background-color: #1abc9c;
+    border-radius: 0 0 100vh 100vh;
+    transition: 0.5s ease ;
+    
+  }
+.start div h1{
+    
+    font-size: 40px;
+    margin-top: 40px;
+}
+.start div i{
+    margin-top: 20px;
+
+}
+.line::before
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 25px;
+    width: 54px;
+    height: 4px;
+    top: 18px;
+}
+.line::after
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right: 25px;
+    width: 54px;
+    height: 4px;
+    top: 18px;
+}
+.start div p{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.second{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    color: #2c3e5a ;
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+.second div
+{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.second div h1
+{
+    font-size: 40px;
+}
+    
+.second div span{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line-2::before
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: #2c3e5a;
+    left: 27px;
+    width: 55px;
+    height: 4px;
+    top: 28px;
+}
+.line-2::after
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: #2c3e5a;
+    right: 28px;
+    width: 54px;
+    height: 4px;
+    top: 28px;
+}
+.cards
+{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 20%;
+     
+}
+.card
+{
+ 
+    width: 270px;
+    height: 300px;
+    padding: 10px;
+    margin: auto;
+    
+}
+.card img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+.third{
+    position: relative;
+    background-color: #1abc9c;
+    color: #2c3e5a ;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+.third div
+{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+
+}
+.third div h1 {
+    font-size: 40px;
+    
+    color: white;
+    
+}
+.third div span{
+    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.line-3::before
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: #ffffff;
+    left: 27px;
+    width: 55px;
+    height: 4px;
+    top: 57px;
+}
+
+
+.line-3::after
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: #ffffff;
+    right: 28px;
+    width: 54px;
+    height: 4px;
+    top: 57px;
+}
+
+.center1
+{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto;
+}
+.center1 p{
+    color: white;
+    position: absolute;
+    width: 300px;
+    top: 60px;   
+    line-height: 1.5;
+}
+.first-p
+{
+    
+    margin-right: 320px ;
+}
+.second-p
+{
+    margin-left: 320px;
+}
+
+.btn
+{
+    cursor: pointer;
+    position: absolute;
+    border: 2px solid white;
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 10px ;
+    top: 400px;
+    height: 50px;
+    width: 200px;
+}
+.fourth
+{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    color: #2c3e5a ;
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap;
+    padding: 40px;
+    text-align: center;
+}
+.fourth div
+{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.fourth div h1
+{
+    font-size: 40px;
+}
+    
+.fourth div span{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line-4::before
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: #2c3e5a;
+    left: 27px;
+    width: 55px;
+    height: 4px;
+    top: 28px;
+}
+.line-4::after
+{
+    border-radius: 10%;
+    content: " ";
+    position: absolute;
+    background-color: #2c3e5a;
+    right: 28px;
+    width: 54px;
+    height: 4px;
+    top: 28px;
+}
+
+.form {
+    color: lightgray;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    padding: 0 20px;
+    
+  }
+  .form placeholder{
+    top: 0%;
+
+  }
+.con{
+    position: relative;
+    max-width: 500px;
+
+}
+.input-field { 
+        width: 500px;
+        height: 80px;
+        margin: 10px 31px;
+        border: none;
+        border-bottom: 1px solid lightgray ;
+}
+.input-field :focus
+{
+    background-color: gray;
+}
+.footer
+{
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.center
+{
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+.margin
+{
+    margin-bottom: 10px;
+}
+.border {
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-left:   10px;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+}
+.block
+{
+    width: 300px;
+}
+.copy
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1a252f;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 40px;
+    
+}
+.copy p{
+    font-size: small;
+    margin: 10px 80px 10px 0px;
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+{
+    .third
+    {
+        height: 50vh;
+    }
+    
+
+}
+
+
+@media (max-width:1024px) 
+{
+   .cards
+{
+    margin: 0 20% !important;
+}
+.start
+{
+    height: 100vh;
+}
+.third
+{
+    height: 60vh ;
+}
+.btn{
+    top: 320px !important;
+}
+.copy p {
+    margin-left:100px
+
+}
+.header 
+{
+    margin: auto;
+    padding: 30px;
+}
+.logo
+{
+    margin: auto;
+}
+.navbar
+{
+    margin: auto;
+}
+}
+
+ 
+@media (max-width:767px)
+{
+    .center1 p{
+        color: white;
+        position: absolute;
+        width: 156px;
+        top: 60px;   
+        line-height: 1.5;
+    }
+    .first-p
+    {
+        
+        margin-right: 140px ;
+    }
+    .second-p
+    {
+        margin-left: 200px;
+    }
+    .third
+    {
+        height: 100vh;
+    }
+    .start h1
+    {
+        text-align: center;
+    }
+    .navbar
+    {
+        text-align: center;
+        margin: auto;
+    }
+   .logo
+    {
+        margin: auto;
+    }
+    .fourth
+    {
+        
+        text-align: center;
+    }
+    .input-field {
+        
+        width: 320px;
+        margin: 10px auto;
+    }
+    .form {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 -19px;
+        padding: 0px 10px 0px 0px;
+    }
+    .container
+    {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .copy p
+    {
+        margin: auto;
+    }
+    .btn{
+        top: 485px !important;
+}
+
+}
+@media (max-width:360px )
+{
+    .input-field {
+        width: 150px;
+        height: 80px;
+    }
+    .center1 p {
+        color: white;
+        position: absolute;
+        width: 120px;
+        top: 60px;
+        left: -70px;
+        line-height: 1.2;
+    }
+    .third
+    {
+        height: 100vh;
+    }
+    .btn{
+        top: 500px !important;
+    }
+    .start div {
+        margin-top: 60px
+    }
+    .second-p {
+        margin-left: 160px;
+    }
+    .first-p {
+        margin-right: 109px;
+    }
+    .start
+    {
+        height: 130vh;
+    }
+    .logo
+    {
+        margin: auto;
+    }
+    .navbar
+    {
+        margin: auto;
+    }
+}
+@media (max-width:277px)
+{
+    
+}
