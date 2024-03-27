@@ -3,6 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Montserrat';
+scroll-behavior: smooth;
 }
 .header 
 {
@@ -17,6 +18,7 @@ font-family: 'Montserrat';
     z-index: 100;
     flex-wrap: wrap;
 }
+
 .logo
 {
    
@@ -134,6 +136,7 @@ font-family: 'Montserrat';
     position: relative;
     background-color: hsl(0, 0%, 100%);
     color: #2c3e5a ;
+    
     width: 100%;  
     display: flex;
     justify-content: center;
