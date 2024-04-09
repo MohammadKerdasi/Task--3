@@ -286,13 +286,13 @@ scroll-behavior: smooth;
     justify-content: space-around ;
     align-items: center;
     color: white;
-    width: 40%;
+    width: 50%;
     margin: 20px ;
 
 }
 .width-para1
 {
-    width: 350px;
+    width: 400px;
     margin: 10px;
 }
 .width-para2
@@ -502,10 +502,11 @@ scroll-behavior: smooth;
     .para
     {
         flex-direction: column;
+        
     }
     .width-para2
     {
-        width: 350px;
+        width: 400px;
     }
    
 }
@@ -524,7 +525,7 @@ scroll-behavior: smooth;
     }
     .width-para2
     {
-        width: 350px;
+        width: 400px;
     }
 }
 @media (min-width:481px) and (max-width:768px) {
@@ -548,7 +549,7 @@ scroll-behavior: smooth;
   
     .width-para2
     {
-        width: 350px;
+        width: 400px;
     }
     .input-field
     {
@@ -607,7 +608,7 @@ scroll-behavior: smooth;
     }
     .width-para1
     {
-        width: 250px;
+        width: 250px !important;
     }
     .width-para2
     {
