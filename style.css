@@ -47,7 +47,7 @@ scroll-behavior: smooth;
     background-color: hsl(168.15deg 75.7% 41.96%);
     color: white;
     width: 100%;
-    height: 100vh ;
+    height:calc(100vh + 100px);
     display: flex;
     justify-content: center;
     align-items:center ;
@@ -541,6 +541,10 @@ scroll-behavior: smooth;
     {
         flex-direction: column;
     }
+    .container-third
+    {
+        padding: 40px;
+    }
   
     .width-para2
     {
@@ -560,6 +564,10 @@ scroll-behavior: smooth;
         padding: 0 5px;
         margin: 0 5px;
     }
+    .start div h1 
+    {
+        font-size: 34px;
+    }
 
 }
 @media (min-width:320px) and (max-width:480px) {
@@ -570,7 +578,7 @@ scroll-behavior: smooth;
     }
     .logo
     {
-        font-size: 20px;
+        font-size: 24px;
     }
     .header
     {
@@ -595,7 +603,7 @@ scroll-behavior: smooth;
     }
     .container-third
     {
-        padding: 20px;
+        padding: 40px;
     }
     .width-para1
     {
